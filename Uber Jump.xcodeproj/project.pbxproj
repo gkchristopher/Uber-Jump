@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		83CC36A221F33F4800BCEF20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CC36A121F33F4800BCEF20 /* AppDelegate.swift */; };
-		83CC36A621F33F4800BCEF20 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36A521F33F4800BCEF20 /* Actions.sks */; };
 		83CC36A821F33F4800BCEF20 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CC36A721F33F4800BCEF20 /* GameScene.swift */; };
 		83CC36AA21F33F4800BCEF20 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CC36A921F33F4800BCEF20 /* GameViewController.swift */; };
 		83CC36AD21F33F4800BCEF20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36AB21F33F4800BCEF20 /* Main.storyboard */; };
@@ -57,12 +56,14 @@
 		83CC371121F3425400BCEF20 /* Background11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36E621F3425400BCEF20 /* Background11@2x.png */; };
 		83CC371221F3425400BCEF20 /* Background13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36E721F3425400BCEF20 /* Background13@2x.png */; };
 		83CC371321F3425400BCEF20 /* Background01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36E821F3425400BCEF20 /* Background01@2x.png */; };
+		83CC371521F35BE500BCEF20 /* GameObjectNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CC371421F35BE500BCEF20 /* GameObjectNode.swift */; };
+		83CC371B21F3800E00BCEF20 /* StarPing.caf in Resources */ = {isa = PBXBuildFile; fileRef = 83CC371A21F3800E00BCEF20 /* StarPing.caf */; };
+		83CC371D21F3849600BCEF20 /* Level01.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83CC371C21F3849600BCEF20 /* Level01.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		83CC369E21F33F4800BCEF20 /* Uber Jump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uber Jump.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83CC36A121F33F4800BCEF20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83CC36A521F33F4800BCEF20 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		83CC36A721F33F4800BCEF20 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		83CC36A921F33F4800BCEF20 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		83CC36AC21F33F4800BCEF20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,6 +113,9 @@
 		83CC36E621F3425400BCEF20 /* Background11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background11@2x.png"; sourceTree = "<group>"; };
 		83CC36E721F3425400BCEF20 /* Background13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background13@2x.png"; sourceTree = "<group>"; };
 		83CC36E821F3425400BCEF20 /* Background01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background01@2x.png"; sourceTree = "<group>"; };
+		83CC371421F35BE500BCEF20 /* GameObjectNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObjectNode.swift; sourceTree = "<group>"; };
+		83CC371A21F3800E00BCEF20 /* StarPing.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = StarPing.caf; sourceTree = "<group>"; };
+		83CC371C21F3849600BCEF20 /* Level01.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Level01.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,14 +148,13 @@
 		83CC36A021F33F4800BCEF20 /* Uber Jump */ = {
 			isa = PBXGroup;
 			children = (
-				83CC36B921F3420100BCEF20 /* Resources */,
 				83CC36A121F33F4800BCEF20 /* AppDelegate.swift */,
-				83CC36A521F33F4800BCEF20 /* Actions.sks */,
-				83CC36A721F33F4800BCEF20 /* GameScene.swift */,
-				83CC36A921F33F4800BCEF20 /* GameViewController.swift */,
-				83CC36AB21F33F4800BCEF20 /* Main.storyboard */,
-				83CC36B021F33F4A00BCEF20 /* LaunchScreen.storyboard */,
 				83CC36B321F33F4A00BCEF20 /* Info.plist */,
+				83CC371621F375FE00BCEF20 /* Storyboards */,
+				83CC36B921F3420100BCEF20 /* Resources */,
+				83CC36A921F33F4800BCEF20 /* GameViewController.swift */,
+				83CC36A721F33F4800BCEF20 /* GameScene.swift */,
+				83CC371421F35BE500BCEF20 /* GameObjectNode.swift */,
 			);
 			path = "Uber Jump";
 			sourceTree = "<group>";
@@ -159,6 +162,8 @@
 		83CC36B921F3420100BCEF20 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				83CC371C21F3849600BCEF20 /* Level01.plist */,
+				83CC371721F37EAC00BCEF20 /* Sounds */,
 				83CC36BC21F3425300BCEF20 /* UberJumpGraphics */,
 				83CC36AE21F33F4A00BCEF20 /* Assets.xcassets */,
 			);
@@ -221,6 +226,23 @@
 				83CC36E821F3425400BCEF20 /* Background01@2x.png */,
 			);
 			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+		83CC371621F375FE00BCEF20 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				83CC36AB21F33F4800BCEF20 /* Main.storyboard */,
+				83CC36B021F33F4A00BCEF20 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		83CC371721F37EAC00BCEF20 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				83CC371A21F3800E00BCEF20 /* StarPing.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +315,7 @@
 				83CC370321F3425400BCEF20 /* Background.png in Resources */,
 				83CC370521F3425400BCEF20 /* Background05@2x.png in Resources */,
 				83CC36EB21F3425400BCEF20 /* Background08@2x.png in Resources */,
+				83CC371B21F3800E00BCEF20 /* StarPing.caf in Resources */,
 				83CC36AD21F33F4800BCEF20 /* Main.storyboard in Resources */,
 				83CC370D21F3425400BCEF20 /* Background19@2x.png in Resources */,
 				83CC36F221F3425400BCEF20 /* Background10.png in Resources */,
@@ -312,10 +335,10 @@
 				83CC36B221F33F4A00BCEF20 /* LaunchScreen.storyboard in Resources */,
 				83CC36F921F3425400BCEF20 /* Background06.png in Resources */,
 				83CC36F121F3425400BCEF20 /* Background04.png in Resources */,
+				83CC371D21F3849600BCEF20 /* Level01.plist in Resources */,
 				83CC36F321F3425400BCEF20 /* Background02@2x.png in Resources */,
 				83CC371221F3425400BCEF20 /* Background13@2x.png in Resources */,
 				83CC370E21F3425400BCEF20 /* Background07@2x.png in Resources */,
-				83CC36A621F33F4800BCEF20 /* Actions.sks in Resources */,
 				83CC370F21F3425400BCEF20 /* Background@2x.png in Resources */,
 				83CC36F521F3425400BCEF20 /* Background05.png in Resources */,
 				83CC36F721F3425400BCEF20 /* Background13.png in Resources */,
@@ -340,6 +363,7 @@
 			files = (
 				83CC36A821F33F4800BCEF20 /* GameScene.swift in Sources */,
 				83CC36AA21F33F4800BCEF20 /* GameViewController.swift in Sources */,
+				83CC371521F35BE500BCEF20 /* GameObjectNode.swift in Sources */,
 				83CC36A221F33F4800BCEF20 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
