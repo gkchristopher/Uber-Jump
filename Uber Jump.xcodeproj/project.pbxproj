@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83CC36A221F33F4800BCEF20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CC36A121F33F4800BCEF20 /* AppDelegate.swift */; };
+		83CC36A621F33F4800BCEF20 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36A521F33F4800BCEF20 /* Actions.sks */; };
+		83CC36A821F33F4800BCEF20 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CC36A721F33F4800BCEF20 /* GameScene.swift */; };
+		83CC36AA21F33F4800BCEF20 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CC36A921F33F4800BCEF20 /* GameViewController.swift */; };
+		83CC36AD21F33F4800BCEF20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36AB21F33F4800BCEF20 /* Main.storyboard */; };
+		83CC36AF21F33F4A00BCEF20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36AE21F33F4A00BCEF20 /* Assets.xcassets */; };
+		83CC36B221F33F4A00BCEF20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36B021F33F4A00BCEF20 /* LaunchScreen.storyboard */; };
+		83CC36E921F3425400BCEF20 /* Assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36BD21F3425300BCEF20 /* Assets.atlas */; };
+		83CC36EA21F3425400BCEF20 /* Background04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36BF21F3425300BCEF20 /* Background04@2x.png */; };
+		83CC36EB21F3425400BCEF20 /* Background08@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36C021F3425300BCEF20 /* Background08@2x.png */; };
+		83CC36EC21F3425400BCEF20 /* Background16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36C121F3425300BCEF20 /* Background16@2x.png */; };
+		83CC36ED21F3425400BCEF20 /* Background20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36C221F3425300BCEF20 /* Background20@2x.png */; };
+		83CC36EE21F3425400BCEF20 /* Background14@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36C321F3425300BCEF20 /* Background14@2x.png */; };
+		83CC36EF21F3425400BCEF20 /* Background06@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36C421F3425300BCEF20 /* Background06@2x.png */; };
+		83CC36F021F3425400BCEF20 /* Background18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36C521F3425300BCEF20 /* Background18@2x.png */; };
+		83CC36F121F3425400BCEF20 /* Background04.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36C621F3425300BCEF20 /* Background04.png */; };
+		83CC36F221F3425400BCEF20 /* Background10.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36C721F3425300BCEF20 /* Background10.png */; };
+		83CC36F321F3425400BCEF20 /* Background02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36C821F3425300BCEF20 /* Background02@2x.png */; };
+		83CC36F421F3425400BCEF20 /* Background11.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36C921F3425300BCEF20 /* Background11.png */; };
+		83CC36F521F3425400BCEF20 /* Background05.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36CA21F3425300BCEF20 /* Background05.png */; };
+		83CC36F621F3425400BCEF20 /* Background10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36CB21F3425300BCEF20 /* Background10@2x.png */; };
+		83CC36F721F3425400BCEF20 /* Background13.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36CC21F3425300BCEF20 /* Background13.png */; };
+		83CC36F821F3425400BCEF20 /* Background07.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36CD21F3425300BCEF20 /* Background07.png */; };
+		83CC36F921F3425400BCEF20 /* Background06.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36CE21F3425300BCEF20 /* Background06.png */; };
+		83CC36FA21F3425400BCEF20 /* Background12.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36CF21F3425300BCEF20 /* Background12.png */; };
+		83CC36FB21F3425400BCEF20 /* Background16.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36D021F3425300BCEF20 /* Background16.png */; };
+		83CC36FC21F3425400BCEF20 /* Background02.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36D121F3425300BCEF20 /* Background02.png */; };
+		83CC36FD21F3425400BCEF20 /* Background03.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36D221F3425300BCEF20 /* Background03.png */; };
+		83CC36FE21F3425400BCEF20 /* Background17.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36D321F3425300BCEF20 /* Background17.png */; };
+		83CC36FF21F3425400BCEF20 /* Background01.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36D421F3425300BCEF20 /* Background01.png */; };
+		83CC370021F3425400BCEF20 /* Background15.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36D521F3425300BCEF20 /* Background15.png */; };
+		83CC370121F3425400BCEF20 /* Background14.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36D621F3425300BCEF20 /* Background14.png */; };
+		83CC370221F3425400BCEF20 /* Background12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36D721F3425300BCEF20 /* Background12@2x.png */; };
+		83CC370321F3425400BCEF20 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36D821F3425300BCEF20 /* Background.png */; };
+		83CC370421F3425400BCEF20 /* Background19.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36D921F3425300BCEF20 /* Background19.png */; };
+		83CC370521F3425400BCEF20 /* Background05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36DA21F3425300BCEF20 /* Background05@2x.png */; };
+		83CC370621F3425400BCEF20 /* Background18.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36DB21F3425300BCEF20 /* Background18.png */; };
+		83CC370721F3425400BCEF20 /* Background17@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36DC21F3425300BCEF20 /* Background17@2x.png */; };
+		83CC370821F3425400BCEF20 /* Background09@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36DD21F3425300BCEF20 /* Background09@2x.png */; };
+		83CC370921F3425400BCEF20 /* Background20.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36DE21F3425300BCEF20 /* Background20.png */; };
+		83CC370A21F3425400BCEF20 /* Background08.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36DF21F3425300BCEF20 /* Background08.png */; };
+		83CC370B21F3425400BCEF20 /* Background09.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36E021F3425300BCEF20 /* Background09.png */; };
+		83CC370C21F3425400BCEF20 /* Background15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36E121F3425300BCEF20 /* Background15@2x.png */; };
+		83CC370D21F3425400BCEF20 /* Background19@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36E221F3425300BCEF20 /* Background19@2x.png */; };
+		83CC370E21F3425400BCEF20 /* Background07@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36E321F3425300BCEF20 /* Background07@2x.png */; };
+		83CC370F21F3425400BCEF20 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36E421F3425300BCEF20 /* Background@2x.png */; };
+		83CC371021F3425400BCEF20 /* Background03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36E521F3425400BCEF20 /* Background03@2x.png */; };
+		83CC371121F3425400BCEF20 /* Background11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36E621F3425400BCEF20 /* Background11@2x.png */; };
+		83CC371221F3425400BCEF20 /* Background13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36E721F3425400BCEF20 /* Background13@2x.png */; };
+		83CC371321F3425400BCEF20 /* Background01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC36E821F3425400BCEF20 /* Background01@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83CC369E21F33F4800BCEF20 /* Uber Jump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uber Jump.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CC36A121F33F4800BCEF20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83CC36A521F33F4800BCEF20 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		83CC36A721F33F4800BCEF20 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		83CC36A921F33F4800BCEF20 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		83CC36AC21F33F4800BCEF20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83CC36AE21F33F4A00BCEF20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83CC36B121F33F4A00BCEF20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83CC36B321F33F4A00BCEF20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83CC36BD21F3425300BCEF20 /* Assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Assets.atlas; sourceTree = "<group>"; };
+		83CC36BF21F3425300BCEF20 /* Background04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background04@2x.png"; sourceTree = "<group>"; };
+		83CC36C021F3425300BCEF20 /* Background08@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background08@2x.png"; sourceTree = "<group>"; };
+		83CC36C121F3425300BCEF20 /* Background16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background16@2x.png"; sourceTree = "<group>"; };
+		83CC36C221F3425300BCEF20 /* Background20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background20@2x.png"; sourceTree = "<group>"; };
+		83CC36C321F3425300BCEF20 /* Background14@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background14@2x.png"; sourceTree = "<group>"; };
+		83CC36C421F3425300BCEF20 /* Background06@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background06@2x.png"; sourceTree = "<group>"; };
+		83CC36C521F3425300BCEF20 /* Background18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background18@2x.png"; sourceTree = "<group>"; };
+		83CC36C621F3425300BCEF20 /* Background04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background04.png; sourceTree = "<group>"; };
+		83CC36C721F3425300BCEF20 /* Background10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background10.png; sourceTree = "<group>"; };
+		83CC36C821F3425300BCEF20 /* Background02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background02@2x.png"; sourceTree = "<group>"; };
+		83CC36C921F3425300BCEF20 /* Background11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background11.png; sourceTree = "<group>"; };
+		83CC36CA21F3425300BCEF20 /* Background05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background05.png; sourceTree = "<group>"; };
+		83CC36CB21F3425300BCEF20 /* Background10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background10@2x.png"; sourceTree = "<group>"; };
+		83CC36CC21F3425300BCEF20 /* Background13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background13.png; sourceTree = "<group>"; };
+		83CC36CD21F3425300BCEF20 /* Background07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background07.png; sourceTree = "<group>"; };
+		83CC36CE21F3425300BCEF20 /* Background06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background06.png; sourceTree = "<group>"; };
+		83CC36CF21F3425300BCEF20 /* Background12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background12.png; sourceTree = "<group>"; };
+		83CC36D021F3425300BCEF20 /* Background16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background16.png; sourceTree = "<group>"; };
+		83CC36D121F3425300BCEF20 /* Background02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background02.png; sourceTree = "<group>"; };
+		83CC36D221F3425300BCEF20 /* Background03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background03.png; sourceTree = "<group>"; };
+		83CC36D321F3425300BCEF20 /* Background17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background17.png; sourceTree = "<group>"; };
+		83CC36D421F3425300BCEF20 /* Background01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background01.png; sourceTree = "<group>"; };
+		83CC36D521F3425300BCEF20 /* Background15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background15.png; sourceTree = "<group>"; };
+		83CC36D621F3425300BCEF20 /* Background14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background14.png; sourceTree = "<group>"; };
+		83CC36D721F3425300BCEF20 /* Background12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background12@2x.png"; sourceTree = "<group>"; };
+		83CC36D821F3425300BCEF20 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		83CC36D921F3425300BCEF20 /* Background19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background19.png; sourceTree = "<group>"; };
+		83CC36DA21F3425300BCEF20 /* Background05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background05@2x.png"; sourceTree = "<group>"; };
+		83CC36DB21F3425300BCEF20 /* Background18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background18.png; sourceTree = "<group>"; };
+		83CC36DC21F3425300BCEF20 /* Background17@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background17@2x.png"; sourceTree = "<group>"; };
+		83CC36DD21F3425300BCEF20 /* Background09@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background09@2x.png"; sourceTree = "<group>"; };
+		83CC36DE21F3425300BCEF20 /* Background20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background20.png; sourceTree = "<group>"; };
+		83CC36DF21F3425300BCEF20 /* Background08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background08.png; sourceTree = "<group>"; };
+		83CC36E021F3425300BCEF20 /* Background09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background09.png; sourceTree = "<group>"; };
+		83CC36E121F3425300BCEF20 /* Background15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background15@2x.png"; sourceTree = "<group>"; };
+		83CC36E221F3425300BCEF20 /* Background19@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background19@2x.png"; sourceTree = "<group>"; };
+		83CC36E321F3425300BCEF20 /* Background07@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background07@2x.png"; sourceTree = "<group>"; };
+		83CC36E421F3425300BCEF20 /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+		83CC36E521F3425400BCEF20 /* Background03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background03@2x.png"; sourceTree = "<group>"; };
+		83CC36E621F3425400BCEF20 /* Background11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background11@2x.png"; sourceTree = "<group>"; };
+		83CC36E721F3425400BCEF20 /* Background13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background13@2x.png"; sourceTree = "<group>"; };
+		83CC36E821F3425400BCEF20 /* Background01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background01@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83CC369B21F33F4800BCEF20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83CC369521F33F4800BCEF20 = {
+			isa = PBXGroup;
+			children = (
+				83CC36A021F33F4800BCEF20 /* Uber Jump */,
+				83CC369F21F33F4800BCEF20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83CC369F21F33F4800BCEF20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83CC369E21F33F4800BCEF20 /* Uber Jump.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83CC36A021F33F4800BCEF20 /* Uber Jump */ = {
+			isa = PBXGroup;
+			children = (
+				83CC36B921F3420100BCEF20 /* Resources */,
+				83CC36A121F33F4800BCEF20 /* AppDelegate.swift */,
+				83CC36A521F33F4800BCEF20 /* Actions.sks */,
+				83CC36A721F33F4800BCEF20 /* GameScene.swift */,
+				83CC36A921F33F4800BCEF20 /* GameViewController.swift */,
+				83CC36AB21F33F4800BCEF20 /* Main.storyboard */,
+				83CC36B021F33F4A00BCEF20 /* LaunchScreen.storyboard */,
+				83CC36B321F33F4A00BCEF20 /* Info.plist */,
+			);
+			path = "Uber Jump";
+			sourceTree = "<group>";
+		};
+		83CC36B921F3420100BCEF20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83CC36BC21F3425300BCEF20 /* UberJumpGraphics */,
+				83CC36AE21F33F4A00BCEF20 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83CC36BC21F3425300BCEF20 /* UberJumpGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				83CC36BD21F3425300BCEF20 /* Assets.atlas */,
+				83CC36BE21F3425300BCEF20 /* Backgrounds */,
+			);
+			path = UberJumpGraphics;
+			sourceTree = "<group>";
+		};
+		83CC36BE21F3425300BCEF20 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				83CC36BF21F3425300BCEF20 /* Background04@2x.png */,
+				83CC36C021F3425300BCEF20 /* Background08@2x.png */,
+				83CC36C121F3425300BCEF20 /* Background16@2x.png */,
+				83CC36C221F3425300BCEF20 /* Background20@2x.png */,
+				83CC36C321F3425300BCEF20 /* Background14@2x.png */,
+				83CC36C421F3425300BCEF20 /* Background06@2x.png */,
+				83CC36C521F3425300BCEF20 /* Background18@2x.png */,
+				83CC36C621F3425300BCEF20 /* Background04.png */,
+				83CC36C721F3425300BCEF20 /* Background10.png */,
+				83CC36C821F3425300BCEF20 /* Background02@2x.png */,
+				83CC36C921F3425300BCEF20 /* Background11.png */,
+				83CC36CA21F3425300BCEF20 /* Background05.png */,
+				83CC36CB21F3425300BCEF20 /* Background10@2x.png */,
+				83CC36CC21F3425300BCEF20 /* Background13.png */,
+				83CC36CD21F3425300BCEF20 /* Background07.png */,
+				83CC36CE21F3425300BCEF20 /* Background06.png */,
+				83CC36CF21F3425300BCEF20 /* Background12.png */,
+				83CC36D021F3425300BCEF20 /* Background16.png */,
+				83CC36D121F3425300BCEF20 /* Background02.png */,
+				83CC36D221F3425300BCEF20 /* Background03.png */,
+				83CC36D321F3425300BCEF20 /* Background17.png */,
+				83CC36D421F3425300BCEF20 /* Background01.png */,
+				83CC36D521F3425300BCEF20 /* Background15.png */,
+				83CC36D621F3425300BCEF20 /* Background14.png */,
+				83CC36D721F3425300BCEF20 /* Background12@2x.png */,
+				83CC36D821F3425300BCEF20 /* Background.png */,
+				83CC36D921F3425300BCEF20 /* Background19.png */,
+				83CC36DA21F3425300BCEF20 /* Background05@2x.png */,
+				83CC36DB21F3425300BCEF20 /* Background18.png */,
+				83CC36DC21F3425300BCEF20 /* Background17@2x.png */,
+				83CC36DD21F3425300BCEF20 /* Background09@2x.png */,
+				83CC36DE21F3425300BCEF20 /* Background20.png */,
+				83CC36DF21F3425300BCEF20 /* Background08.png */,
+				83CC36E021F3425300BCEF20 /* Background09.png */,
+				83CC36E121F3425300BCEF20 /* Background15@2x.png */,
+				83CC36E221F3425300BCEF20 /* Background19@2x.png */,
+				83CC36E321F3425300BCEF20 /* Background07@2x.png */,
+				83CC36E421F3425300BCEF20 /* Background@2x.png */,
+				83CC36E521F3425400BCEF20 /* Background03@2x.png */,
+				83CC36E621F3425400BCEF20 /* Background11@2x.png */,
+				83CC36E721F3425400BCEF20 /* Background13@2x.png */,
+				83CC36E821F3425400BCEF20 /* Background01@2x.png */,
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83CC369D21F33F4800BCEF20 /* Uber Jump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83CC36B621F33F4A00BCEF20 /* Build configuration list for PBXNativeTarget "Uber Jump" */;
+			buildPhases = (
+				83CC369A21F33F4800BCEF20 /* Sources */,
+				83CC369B21F33F4800BCEF20 /* Frameworks */,
+				83CC369C21F33F4800BCEF20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Uber Jump";
+			productName = "Uber Jump";
+			productReference = 83CC369E21F33F4800BCEF20 /* Uber Jump.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CC369621F33F4800BCEF20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Roving Mobile";
+				TargetAttributes = {
+					83CC369D21F33F4800BCEF20 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 83CC369921F33F4800BCEF20 /* Build configuration list for PBXProject "Uber Jump" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CC369521F33F4800BCEF20;
+			productRefGroup = 83CC369F21F33F4800BCEF20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83CC369D21F33F4800BCEF20 /* Uber Jump */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83CC369C21F33F4800BCEF20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CC36FF21F3425400BCEF20 /* Background01.png in Resources */,
+				83CC36FB21F3425400BCEF20 /* Background16.png in Resources */,
+				83CC36FA21F3425400BCEF20 /* Background12.png in Resources */,
+				83CC36EA21F3425400BCEF20 /* Background04@2x.png in Resources */,
+				83CC370721F3425400BCEF20 /* Background17@2x.png in Resources */,
+				83CC36FD21F3425400BCEF20 /* Background03.png in Resources */,
+				83CC370B21F3425400BCEF20 /* Background09.png in Resources */,
+				83CC371021F3425400BCEF20 /* Background03@2x.png in Resources */,
+				83CC36EE21F3425400BCEF20 /* Background14@2x.png in Resources */,
+				83CC370321F3425400BCEF20 /* Background.png in Resources */,
+				83CC370521F3425400BCEF20 /* Background05@2x.png in Resources */,
+				83CC36EB21F3425400BCEF20 /* Background08@2x.png in Resources */,
+				83CC36AD21F33F4800BCEF20 /* Main.storyboard in Resources */,
+				83CC370D21F3425400BCEF20 /* Background19@2x.png in Resources */,
+				83CC36F221F3425400BCEF20 /* Background10.png in Resources */,
+				83CC370021F3425400BCEF20 /* Background15.png in Resources */,
+				83CC370C21F3425400BCEF20 /* Background15@2x.png in Resources */,
+				83CC36F621F3425400BCEF20 /* Background10@2x.png in Resources */,
+				83CC36FE21F3425400BCEF20 /* Background17.png in Resources */,
+				83CC370921F3425400BCEF20 /* Background20.png in Resources */,
+				83CC370421F3425400BCEF20 /* Background19.png in Resources */,
+				83CC36F421F3425400BCEF20 /* Background11.png in Resources */,
+				83CC370821F3425400BCEF20 /* Background09@2x.png in Resources */,
+				83CC36AF21F33F4A00BCEF20 /* Assets.xcassets in Resources */,
+				83CC36F021F3425400BCEF20 /* Background18@2x.png in Resources */,
+				83CC370121F3425400BCEF20 /* Background14.png in Resources */,
+				83CC36E921F3425400BCEF20 /* Assets.atlas in Resources */,
+				83CC36ED21F3425400BCEF20 /* Background20@2x.png in Resources */,
+				83CC36B221F33F4A00BCEF20 /* LaunchScreen.storyboard in Resources */,
+				83CC36F921F3425400BCEF20 /* Background06.png in Resources */,
+				83CC36F121F3425400BCEF20 /* Background04.png in Resources */,
+				83CC36F321F3425400BCEF20 /* Background02@2x.png in Resources */,
+				83CC371221F3425400BCEF20 /* Background13@2x.png in Resources */,
+				83CC370E21F3425400BCEF20 /* Background07@2x.png in Resources */,
+				83CC36A621F33F4800BCEF20 /* Actions.sks in Resources */,
+				83CC370F21F3425400BCEF20 /* Background@2x.png in Resources */,
+				83CC36F521F3425400BCEF20 /* Background05.png in Resources */,
+				83CC36F721F3425400BCEF20 /* Background13.png in Resources */,
+				83CC371321F3425400BCEF20 /* Background01@2x.png in Resources */,
+				83CC370621F3425400BCEF20 /* Background18.png in Resources */,
+				83CC36EC21F3425400BCEF20 /* Background16@2x.png in Resources */,
+				83CC36FC21F3425400BCEF20 /* Background02.png in Resources */,
+				83CC370221F3425400BCEF20 /* Background12@2x.png in Resources */,
+				83CC370A21F3425400BCEF20 /* Background08.png in Resources */,
+				83CC36F821F3425400BCEF20 /* Background07.png in Resources */,
+				83CC36EF21F3425400BCEF20 /* Background06@2x.png in Resources */,
+				83CC371121F3425400BCEF20 /* Background11@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83CC369A21F33F4800BCEF20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CC36A821F33F4800BCEF20 /* GameScene.swift in Sources */,
+				83CC36AA21F33F4800BCEF20 /* GameViewController.swift in Sources */,
+				83CC36A221F33F4800BCEF20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83CC36AB21F33F4800BCEF20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83CC36AC21F33F4800BCEF20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83CC36B021F33F4A00BCEF20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83CC36B121F33F4A00BCEF20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83CC36B421F33F4A00BCEF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83CC36B521F33F4A00BCEF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83CC36B721F33F4A00BCEF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JCM3ZMDL4E;
+				INFOPLIST_FILE = "Uber Jump/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rovingmobile.Uber-Jump";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83CC36B821F33F4A00BCEF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JCM3ZMDL4E;
+				INFOPLIST_FILE = "Uber Jump/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rovingmobile.Uber-Jump";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83CC369921F33F4800BCEF20 /* Build configuration list for PBXProject "Uber Jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CC36B421F33F4A00BCEF20 /* Debug */,
+				83CC36B521F33F4A00BCEF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CC36B621F33F4A00BCEF20 /* Build configuration list for PBXNativeTarget "Uber Jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CC36B721F33F4A00BCEF20 /* Debug */,
+				83CC36B821F33F4A00BCEF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CC369621F33F4800BCEF20 /* Project object */;
+}
