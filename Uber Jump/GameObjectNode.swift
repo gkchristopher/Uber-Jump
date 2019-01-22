@@ -19,7 +19,7 @@ class GameObjectNode: SKNode {
     }
 
     func checkNodeRemoval(playerY: CGFloat) {
-        if playerY < position.y + 300.0 {
+        if playerY > position.y + 300.0 {
             removeFromParent()
         }
     }
@@ -35,6 +35,8 @@ class StarNode: GameObjectNode {
         run(starSound) {
             self.removeFromParent()
         }
+        GameState.shared.score += starType == .normal ? 20 : 100
+        GameState.shared.stars += starType == .normal ? 1 : 5
         return true
     }
 }
